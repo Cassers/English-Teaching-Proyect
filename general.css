@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    background: rgb(20,61,89);
+background: linear-gradient(45deg, rgba(20,61,89,1) 21%, rgba(179,2,8,1) 99%) fixed;
+}
+
+a {
+    text-decoration: none;
+    color: var(--eerie_black);
+}
+
+:root {
+    --grey_color: #dddddd;
+    --light_grey: #d0c9c9;
+    --eerie_black: #171616;
+    --indigo_dye: #143d59;
+    --rufous: #b30208;
+    --firebrick: #bc2c1a;
+    --persimmon: #e85d04;
+    --selective_yellow: #f4b41a;
+}

@@ -1,0 +1,22 @@
+header {
+    height: 6vh;
+    background-color: var(--grey_color);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+header ul {
+    display: flex;
+    margin-right: 2vw;
+    list-style: none;
+}
+
+header ul li {
+    margin-left: 2vw;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--eerie_black);
+}
