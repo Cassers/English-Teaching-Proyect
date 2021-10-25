@@ -1,4 +1,4 @@
-fetch("http://127.0.0.1:5500/english_proyect/components/header/header.html")
+fetch("http://127.0.0.1:5500/components/header/header.html")
     .then(stream => stream.text())
     .then(text => define(text));
 
