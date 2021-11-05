@@ -1,0 +1,35 @@
+
+
+.a1 {
+    background: url(./courses/a1/pic_a1.webp) no-repeat;
+    background-size: cover;
+    transition: 2s;
+    transform-origin: center;
+    transform: translate(120px, 50%);
+    
+}
+
+.a2 {
+    background: url(./courses/a2/pic_a2.webp) no-repeat;
+    background-size: cover;
+}
+
+.b1 {
+    background: url(./courses/b1/pic_b1.webp) no-repeat;
+    background-size: cover;
+}
+
+.b2 {
+    background: url(./courses/b2/pic_b2.webp) no-repeat;
+    background-size: cover;
+}
+
+div {
+    height: 10em;
+    margin: 0.5em;
+}
+
+h1 {
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+}
