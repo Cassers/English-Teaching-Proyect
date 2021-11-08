@@ -1,9 +1,12 @@
 
+main div {
+    transform: translate(0px, 120px);
+}
+
+
 main div[data-scroll="in"] {
-    transform-origin: center;
-    transition: 2s;
-    transform: translate(120px, 50%);
-    transition-delay: 1s;
+    transition: 1s;
+    transform: translate(0px, 0px);
 }
 
 .a1 {
