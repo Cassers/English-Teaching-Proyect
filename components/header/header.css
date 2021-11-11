@@ -1,9 +1,13 @@
 header {
+    top:0;
+    position: -webkit-sticky;
+    position: sticky;
     height: 45px;
     background-color: var(--grey_color);
     display: flex;
     align-items: center;
     justify-content: end;
+    z-index: 100;
 }
 
 header ul {
